@@ -1,0 +1,207 @@
+header,
+section,
+footer,
+aside,
+article,
+figure {
+  display: block;
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url("img/give-share.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-position-x: center;
+  background-position-y: center;
+  background-blend-mode: normal;
+  min-height: 100vh;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 20px auto 20px auto;
+}
+
+header {
+  height: 120px;
+}
+
+logo {
+  width: 1200px;
+  height: 120px;
+  margin: 20px auto 20px auto;
+  float: left;
+}
+
+section.content {
+  float: left;
+  width: 800px;
+  margin-top: 50px;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+
+figure {
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+
+figcaption {
+  float: right;
+  margin-top: 30px;
+  font-weight: 900;
+  margin-left: 2px;
+}
+
+hgroup {
+  margin: 10px 0px 0px 0px;
+}
+
+aside {
+  width: 180px;
+  float: left;
+  padding-left: 10px;
+}
+
+section.button {
+  margin-top: 400px;
+  border-radius: 20px;
+}
+
+.button a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.cover {
+  width: 1200px;
+  margin: 20px auto 20px auto;
+}
+
+section.main {
+  float: left;
+  width: 600px;
+  margin: 30px auto 20px 260px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+}
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid black;
+}
+
+.btn {
+  background-color: brown;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  margin: 0px 0px 20px 220px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  text-align: center;
+  margin-left: 100px;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+  .wrap {
+    width: 300px;
+  }
+
+  section.content {
+    float: left;
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  article img {
+    width: 200px;
+    height: 200px;
+  }
+
+  section.button {
+    margin: 200px 100px auto auto;
+    border-radius: 20px;
+  }
+
+  article .dollar {
+    width: 100%;
+    padding: auto;
+    outline: none;
+  }
+
+  section.main {
+    float: left;
+    width: 350px;
+    margin-left: 5px;
+  }
+
+  .cover {
+    width: 400px;
+    font-size: 12px;
+  }
+
+  label {
+    text-align: center;
+    margin-left: 70px;
+    font-weight: 900;
+    font-size: 8px;
+  }
+
+  .btn {
+    margin: 0px 0px 20px 150px;
+  }
+
+  .input-container {
+    width: 80%;
+  }
+}

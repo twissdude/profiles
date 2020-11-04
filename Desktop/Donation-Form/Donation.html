@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+    <div class="cover">
+        <header>  
+           <figure>
+              <img src="img/owambe-logo.png" alt="logo" width="80" height="80" />
+              <figcaption>Owambe</figcaption>
+           </figure>
+        </header>
+        <section class="main">
+            <article>
+                <form action="/action_page.php" style="max-width: 500px;margin: auto;">
+                    <h2>Donation Form</h2>
+                    <div class="input-container">
+                        <i class="fa fa-user icon"></i>
+                        <input class="input-field" type="text" placeholder="Name" name="name">
+                    </div>
+                    
+                    <div class="input-container">
+                        <i class="fa fa-envelope icon"></i>
+                        <input class="input-field" type="text" placeholder="Email" name="email">
+                    </div>
+
+                    <div class="input-container">
+                        <i class="fa fa-home icon"></i>
+                        <input class="input-field" type="address" placeholder="Address" name="add">
+                    </div>
+
+                    <div class="input-container">
+                        <i class="fa fa-phone icon"></i>
+                        <input class="input-field" type="number" placeholder="Phone Number" name="num">
+                    </div>
+
+                    <div class="input-container">
+                        <i class="fa fa-money icon"></i>
+                        <input class="input-field" type="number" placeholder="Donation Amount($)" name="amt">
+                    </div>
+                    <br />
+                    <label>CHOOSE ONLY ONE OF THE PAYMENT METHOD</label>
+
+                    <div class="input-container">
+                        <i class="fa fa-bank icon"></i>
+                        <input class="input-field" type="number" placeholder="Bank Transfer" name="bank">
+                    </div>
+
+                    <div class="input-container">
+                        <i class="fa fa-credit-card icon"></i>
+                        <input class="input-field" type="number" placeholder="Credit-card" name="card">
+                    </div>
+
+                    <div class="input-container">
+                        <i class="fa fa-paypal icon"></i>
+                        <input class="input-field" type="number" placeholder="Paypal" name="pay">
+                    </div>
+
+                    <div class="input-container">
+                        <i class="fa fa-bitcoin icon"></i>
+                        <input class="input-field" type="number" placeholder="Bitcoin" name="bit">
+                    </div>
+
+                    
+
+                    <button type="submit" class="btn">Donate Now</button>
+                
+                </form>
+
+            </article>
+        </section>
+    </div>
+
+    </body>
+    </html>
